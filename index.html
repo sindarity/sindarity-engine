@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sindarity — Sovereign Data Infrastructure" />
+  <title>Sindarity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NOISE TEXTURE OVERLAY -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="Sindarity Home">
+        <span class="logo-mark">*</span><span class="logo-text">CMD</span>
+        <span class="logo-sub">by Sindarity</span>
+      </a>
+      <nav class="header-nav">
+        <span class="nav-badge" id="nicheBadge">Loading…</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="main" id="main">
+    <section class="hero" id="hero">
+
+      <!-- LEFT COLUMN: Decorative / Profile Asset Zone -->
+      <div class="hero-left" id="heroLeft" aria-hidden="true">
+        <div class="left-ornament">
+          <div class="crystal-cluster">
+            <svg viewBox="0 0 220 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="crystal-svg">
+              <!-- Large center crystal -->
+              <polygon points="110,20 122,110 110,130 98,110" fill="url(#cg1)" opacity="0.85"/>
+              <polygon points="110,30 119,108 110,122 101,108" fill="url(#cg2)" opacity="0.45"/>
+              <!-- Left tall -->
+              <polygon points="72,45 82,120 72,140 62,120" fill="url(#cg3)" opacity="0.8" transform="rotate(-12 72 110)"/>
+              <!-- Right tall -->
+              <polygon points="148,45 158,120 148,140 138,120" fill="url(#cg3)" opacity="0.8" transform="rotate(12 148 110)"/>
+              <!-- Far left -->
+              <polygon points="38,70 46,130 38,148 30,130" fill="url(#cg4)" opacity="0.65" transform="rotate(-24 38 120)"/>
+              <!-- Far right -->
+              <polygon points="182,70 190,130 182,148 174,130" fill="url(#cg4)" opacity="0.65" transform="rotate(24 182 120)"/>
+              <!-- Small accent left -->
+              <polygon points="90,55 97,115 90,128 83,115" fill="url(#cg2)" opacity="0.6" transform="rotate(-6 90 100)"/>
+              <!-- Small accent right -->
+              <polygon points="130,55 137,115 130,128 123,115" fill="url(#cg2)" opacity="0.6" transform="rotate(6 130 100)"/>
+              <!-- Sun arc base -->
+              <path d="M30 160 Q110 120 190 160" stroke="url(#sg1)" stroke-width="1" fill="none" opacity="0.4"/>
+              <!-- Glow orb -->
+              <ellipse cx="110" cy="155" rx="18" ry="10" fill="url(#og1)" opacity="0.7"/>
+              <!-- Ground line -->
+              <line x1="20" y1="165" x2="200" y2="165" stroke="#D4AF37" stroke-width="0.5" opacity="0.3"/>
+
+              <defs>
+                <linearGradient id="cg1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#D4AF37"/>
+                  <stop offset="100%" stop-color="#8B9EC7"/>
+                </linearGradient>
+                <linearGradient id="cg2" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#FDFBF7" stop-opacity="0.9"/>
+                  <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.3"/>
+                </linearGradient>
+                <linearGradient id="cg3" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#8B9EC7"/>
+                  <stop offset="100%" stop-color="#D4AF37"/>
+                </linearGradient>
+                <linearGradient id="cg4" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.7"/>
+                  <stop offset="100%" stop-color="#8B9EC7" stop-opacity="0.4"/>
+                </linearGradient>
+                <linearGradient id="sg1" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="transparent"/>
+                  <stop offset="50%" stop-color="#D4AF37"/>
+                  <stop offset="100%" stop-color="transparent"/>
+                </linearGradient>
+                <radialGradient id="og1" cx="50%" cy="50%">
+                  <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.8"/>
+                  <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="metric-card" id="metricCard">
+            <div class="metric-label">Sovereign Metric</div>
+            <div class="metric-value" id="metricValue">Loading…</div>
+          </div>
+
+          <div class="left-rule"></div>
+
+          <p class="left-eyebrow">Documentation Gap Recovery</p>
+          <p class="left-tagline">Clarity in Every Record.<br/>Care in Every Case.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Content -->
+      <div class="hero-right" id="heroRight">
+        <div class="right-inner">
+
+          <div class="eyebrow-row">
+            <span class="eyebrow-line"></span>
+            <span class="eyebrow-text" id="nicheLabel">Sindarity</span>
+          </div>
+
+          <h1 class="headline" id="headline">
+            Sovereign Data Infrastructure.<br/>Built for What's at Stake.
+          </h1>
+
+          <p class="subheadline" id="subheadline">
+            Infrastructure for Advocacy. Systems for Revenue Recovery.
+          </p>
+
+          <div class="divider-ornament">
+            <span></span><span class="diamond">◆</span><span></span>
+          </div>
+
+          <div class="content-block">
+            <p class="content-label">The Problem</p>
+            <p class="content-text" id="painPoint">
+              Documentation gaps are quietly draining revenue — and no one is tracking them.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <p class="content-label">The Solution</p>
+            <p class="content-text" id="solution">
+              We build sovereign data systems that organize your records, close the gaps, and protect what's yours.
+            </p>
+          </div>
+
+          <div class="badge-row">
+            <span class="trust-badge" id="trustBadge">HIPAA Compliant · BAA Available</span>
+          </div>
+
+          <a href="#contact" class="cta-btn" id="ctaBtn">
+            <span class="cta-text" id="ctaText">Deploy Your Recovery Protocol</span>
+            <span class="cta-arrow">→</span>
+          </a>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+
+        <div class="contact-header">
+          <p class="contact-eyebrow">Priority Intake</p>
+          <h2 class="contact-heading">Reserve Your Discovery Call</h2>
+          <p class="contact-sub">We accept a limited number of new engagements each month. Submit your information and a Sindarity strategist will be in touch within 24 hours.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Dr. Jane" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Holloway" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@yourpractice.com" required />
+            </div>
+            <div class="form-group">
+              <label for="org">Practice / Organization</label>
+              <input type="text" id="org" name="org" placeholder="Holloway Health Group" required />
+            </div>
+          </div>
+
+          <div class="form-group form-full">
+            <label for="challenge">Biggest Documentation Challenge</label>
+            <textarea id="challenge" name="challenge" rows="3" placeholder="Tell us what's leaking — denied claims, backlogged records, missing documentation…"></textarea>
+          </div>
+
+          <div class="form-submit-row">
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span id="submitText">Submit Priority Intake</span>
+            </button>
+            <p class="form-note">Protected by NDA. We never share your information.</p>
+          </div>
+
+          <div class="success-state" id="successState" style="display:none;">
+            <div class="success-icon">◆</div>
+            <h3>Your intake has been received.</h3>
+            <p>A Sindarity strategist will review your submission and reach out within 24 hours.</p>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo"><span class="logo-mark">*</span>CMD</span>
+        <span class="footer-divider">·</span>
+        <span class="footer-powered">Powered by <strong>Sindarity</strong> Data Solutions</span>
+      </div>
+      <div class="footer-meta">
+        <span>HIPAA-Compliant</span>
+        <span class="dot">·</span>
+        <span>BAA Available</span>
+        <span class="dot">·</span>
+        <span>Self-Hosted Infrastructure</span>
+      </div>
+      <p class="footer-copy">© 2025 Sindarity Data Solutions LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="router.js" type="module"></script>
+</body>
+</html>

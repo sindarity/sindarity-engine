@@ -1,0 +1,180 @@
+{
+  "niches": {
+    "chiropractor": {
+      "nicheName": "Chiropractic Practices",
+      "headline": "Your Revenue Is Leaking Through Documentation Gaps",
+      "subheadline": "Infrastructure for Advocacy. Systems for Clinical Revenue Recovery.",
+      "painPoint": "Insurance claim denials and fragmented patient records are quietly draining your practice. Most chiropractors lose 15–30% of billable revenue not to fraud — but to documentation gaps no one is tracking.",
+      "solution": "We build a Gap Detector Recovery System directly inside your existing EHR — under a signed BAA, with zero workflow disruption. No new software. Just a clear picture of what's leaking and a structured path to recover it.",
+      "ctaText": "Deploy Your Recovery Protocol",
+      "contactEmail": "chiropractor@sindarity.com",
+      "metric": "Gap Detector Recovery Report",
+      "badge": "HIPAA Compliant · BAA Available"
+    },
+    "logistics": {
+      "nicheName": "Logistics & Freight Operations",
+      "headline": "Every Lost Shipment Record Is Lost Revenue",
+      "subheadline": "Sovereign Data Infrastructure for High-Volume Freight Operations.",
+      "painPoint": "Fragmented vendor records, missing proof-of-delivery documentation, and siloed carrier data are creating invisible revenue leaks across your operation — and no single system is catching them.",
+      "solution": "We build a Unified Vendor Revenue Command Center: a structured, audit-ready data architecture that consolidates your freight records, surfaces billing discrepancies, and closes the documentation gaps costing you on every lane.",
+      "ctaText": "Audit My Operation",
+      "contactEmail": "logistics@sindarity.com",
+      "metric": "Vendor Revenue Command Center",
+      "badge": "NDA Available · Enterprise Ready"
+    },
+    "legal": {
+      "nicheName": "Legal & Estate Practices",
+      "headline": "Disorganized Client Records Are a Liability You Can't Afford",
+      "subheadline": "Sovereign Documentation Systems for High-Stakes Legal Operations.",
+      "painPoint": "Fragmented estate files, unverified asset inventories, and manual court reporting workflows are consuming billable hours and creating compliance exposure your practice can't afford to carry.",
+      "solution": "We build a Sovereign Asset Source of Truth — a structured, court-ready documentation system that organizes client estates, verifies asset records, and automates the filing workflows that are currently draining your team's capacity.",
+      "ctaText": "Secure My Practice",
+      "contactEmail": "legal@sindarity.com",
+      "metric": "Sovereign Ownership Source of Truth",
+      "badge": "NDA Standard · BAA Available"
+    },
+    "dentist": {
+      "nicheName": "Dental Practices",
+      "headline": "Claim Denials Are Costing You More Than You Know",
+      "subheadline": "Clinical Revenue Recovery Infrastructure for Modern Dental Practices.",
+      "painPoint": "Insurance denials, incomplete treatment documentation, and manual billing reconciliation are creating a revenue gap your front desk team doesn't have the bandwidth to close.",
+      "solution": "We deploy a structured Intake-to-Invoice Audit System inside your practice management software — identifying every unbilled session, flagging recurring denial patterns, and building the documentation trail that wins appeals.",
+      "ctaText": "Run My Revenue Audit",
+      "contactEmail": "dental@sindarity.com",
+      "metric": "Verified Intake-to-Invoice Audit",
+      "badge": "HIPAA Compliant · BAA Available"
+    },
+    "medspa": {
+      "nicheName": "Med-Spa & Aesthetic Practices",
+      "headline": "High-Turnover Intake Is Leaving Sessions Unbilled",
+      "subheadline": "Revenue Recovery Infrastructure for High-Volume Aesthetic Practices.",
+      "painPoint": "Fast-paced client flow, inconsistent intake documentation, and disconnected booking-to-billing workflows are creating invisible revenue leaks in every shift — and no one is tracking them systematically.",
+      "solution": "We build a Verified Intake-to-Invoice Audit system tailored to your service menu and booking cadence — closing the gap between every session delivered and every dollar collected.",
+      "ctaText": "Close My Revenue Gap",
+      "contactEmail": "medspa@sindarity.com",
+      "metric": "Verified Intake-to-Invoice Audit",
+      "badge": "HIPAA Compliant · Confidential"
+    },
+    "telehealth": {
+      "nicheName": "Telehealth Providers",
+      "headline": "Digital Gaps in Remote Notes Are Causing Billing Loss",
+      "subheadline": "Verified Data-Handoff Infrastructure for Telehealth Revenue Integrity.",
+      "painPoint": "Incomplete remote session notes, platform sync failures, and disconnected digital workflows are creating documentation gaps that translate directly into denied claims and unbilled encounters.",
+      "solution": "We build a Verified Digital-Handoff Revenue Sync — a structured audit system that closes the documentation gap between your telehealth platform and your billing workflow, session by session.",
+      "ctaText": "Verify My Revenue Sync",
+      "contactEmail": "telehealth@sindarity.com",
+      "metric": "Verified Digital-Handoff Revenue Sync",
+      "badge": "HIPAA Compliant · BAA Standard"
+    },
+    "ketamine": {
+      "nicheName": "Ketamine & Infusion Clinics",
+      "headline": "Regulatory Gaps Are Blocking Your Insurance Revenue",
+      "subheadline": "Compliance-Ready Documentation Infrastructure for Emerging Modality Clinics.",
+      "painPoint": "The path to insurance reimbursement for ketamine and infusion therapies runs directly through regulatory documentation — and most clinics lack the structured audit trail that payers and regulators require.",
+      "solution": "We build a Regulatory-Ready Revenue Audit Trail: a structured documentation system that organizes your clinical protocols, treatment records, and compliance evidence into the format insurers and regulators expect to see.",
+      "ctaText": "Build My Compliance Trail",
+      "contactEmail": "ketamine@sindarity.com",
+      "metric": "Regulatory-Ready Revenue Audit Trail",
+      "badge": "HIPAA Compliant · BAA Available"
+    },
+    "midwife": {
+      "nicheName": "Midwifery & Birth Practices",
+      "headline": "Disorganized Records Are Leading to Payment Denials",
+      "subheadline": "A Mobile Clinical-Revenue Vault for Independent Birth Practices.",
+      "painPoint": "Handwritten notes, fragmented birth records, and inconsistent documentation across home and birth center settings are creating the kind of administrative gaps that payers use to deny legitimate claims.",
+      "solution": "We build a Mobile Clinical-Revenue Vault — a structured, portable documentation system that organizes your birth records, care narratives, and billing documentation into a clean, defensible file that travels with your practice.",
+      "ctaText": "Organize My Practice Records",
+      "contactEmail": "midwife@sindarity.com",
+      "metric": "Mobile Clinical-Revenue Vault",
+      "badge": "HIPAA Compliant · BAA Available"
+    },
+    "veteran": {
+      "nicheName": "Veterans & Military Record Recovery",
+      "headline": "Lost Files Are Blocking Your Disability Benefits",
+      "subheadline": "Reconstructed Benefit-Recovery Records for Veterans Who've Been Failed by the System.",
+      "painPoint": "Missing service records, incomplete medical documentation, and gaps in the paper trail are the most common reason legitimate VA disability claims get denied — not the severity of your condition.",
+      "solution": "We build a Reconstructed Benefit-Recovery Record: a structured, evidence-organized file that reconstructs your service history, medical documentation, and nexus letters into a submission-ready package that gives your claim its best possible foundation.",
+      "ctaText": "Recover My Service Record",
+      "contactEmail": "veteran@sindarity.com",
+      "metric": "Reconstructed Benefit-Recovery Record",
+      "badge": "Confidential · NDA Available"
+    },
+    "estate": {
+      "nicheName": "Estate & Legacy Planning",
+      "headline": "Asset Disorganization Is Creating Tax Penalties and Legal Costs",
+      "subheadline": "Sovereign Wealth-Protection Infrastructure for Generational Estate Planning.",
+      "painPoint": "Disorganized asset records, undocumented transfers, and missing estate documentation are creating probate delays, tax exposure, and legal costs that erode the wealth your family spent a lifetime building.",
+      "solution": "We build a Sovereign Wealth-Protection File — a structured, court-ready documentation system that organizes your complete asset inventory, transfer history, and estate instructions into a clean, legally defensible record.",
+      "ctaText": "Protect My Estate",
+      "contactEmail": "estate@sindarity.com",
+      "metric": "Sovereign Wealth-Protection File",
+      "badge": "NDA Standard · Confidential"
+    },
+    "crypto": {
+      "nicheName": "Digital Asset & Crypto Estates",
+      "headline": "Your Digital Wealth Has No Recovery Plan",
+      "subheadline": "Digital Legacy Infrastructure for the Assets Your Estate Plan Is Missing.",
+      "painPoint": "Crypto wallets, SaaS revenue streams, digital accounts, and online business assets are invisible to traditional estate plans — and permanently unrecoverable when access is lost.",
+      "solution": "We build a Digital Legacy Asset Recovery Key: a structured, executor-ready documentation system that inventories every digital asset, maps the access architecture, and delivers a clear transfer protocol — without unsafe credential storage.",
+      "ctaText": "Secure My Digital Legacy",
+      "contactEmail": "crypto@sindarity.com",
+      "metric": "Digital Legacy Asset Recovery Key",
+      "badge": "NDA Standard · Zero Cloud Storage"
+    },
+    "memory": {
+      "nicheName": "Memory Fitness & Cognitive Care",
+      "headline": "Early Decline Signs Are Being Missed — Because No One Is Writing Them Down",
+      "subheadline": "Structured Longitudinal Documentation for Families Navigating Cognitive Decline.",
+      "painPoint": "Families observe months or years of cognitive changes before a diagnosis — but without a structured record, those observations can't support a medical case, a capacity assessment, or a Medicaid application.",
+      "solution": "We build a Cognitive Integrity Vault: a structured, time-stamped documentation system maintained by family caregivers and designed to produce a clinically and legally useful record of cognitive and behavioral change over time.",
+      "ctaText": "Start My Family's Record",
+      "contactEmail": "memory@sindarity.com",
+      "metric": "Cognitive Integrity Revenue Audit",
+      "badge": "Confidential · NDA Available"
+    },
+    "aigovernance": {
+      "nicheName": "AI Governance & Compliance",
+      "headline": "Your AI Makes Decisions. Can You Prove How?",
+      "subheadline": "Sovereign Audit Trail Infrastructure for Organizations Under Regulatory Scrutiny.",
+      "painPoint": "The EU AI Act is in force. The FTC is investigating algorithmic decisions. If your organization uses AI in clinical, financial, or operational workflows and cannot produce a timestamped decision log — you are exposed.",
+      "solution": "We build an Algorithm Decision Sovereign Log: a structured documentation architecture that captures every AI-assisted decision in a format that satisfies regulatory review, internal compliance, and legal discovery — without new software purchases.",
+      "ctaText": "Close My Compliance Gap",
+      "contactEmail": "governance@sindarity.com",
+      "metric": "Algorithm Decision Sovereign Log",
+      "badge": "EU AI Act Ready · HIPAA Compliant"
+    },
+    "medicaid": {
+      "nicheName": "Medicaid Look-Back Planning",
+      "headline": "Missing Records Are Blocking Long-Term Care Funding",
+      "subheadline": "State-Ready Documentation for Medicaid Look-Back Compliance.",
+      "painPoint": "The Medicaid look-back period demands 5 years of clean financial documentation. Missing bank statements, undocumented transfers, or informal gifts can trigger a penalty period — delaying care coverage for months.",
+      "solution": "We build a State-Ready Funding Asset Registry: a structured Medicaid Look-Back Vault that compiles, organizes, and annotates the complete 5-year financial record in the exact format caseworkers and elder law attorneys need.",
+      "ctaText": "Build My Look-Back Vault",
+      "contactEmail": "medicaid@sindarity.com",
+      "metric": "State-Ready Funding Asset Registry",
+      "badge": "Elder Law Ready · NDA Available"
+    },
+    "oralhistory": {
+      "nicheName": "Oral History & Heritage Indexing",
+      "headline": "Your Family's Story Is Invisible — and Therefore Worthless",
+      "subheadline": "AI-Indexed Narrative Infrastructure for Heritage Collections with Real Market Value.",
+      "painPoint": "Recordings, documents, and family histories sitting in unorganized drives or boxes have no grant eligibility, no licensing potential, and no generational transferability — because they aren't indexed.",
+      "solution": "We build an AI-Indexed Monetized Narrative: a structured, searchable archive of your family or community story — organized by theme, timeline, and subject — with a grant-eligibility assessment and a monetization pathway built in.",
+      "ctaText": "Index My Family Archive",
+      "contactEmail": "heritage@sindarity.com",
+      "metric": "AI-Indexed Monetized Narrative",
+      "badge": "Grant-Eligible Ready · NDA Available"
+    },
+    "dme": {
+      "nicheName": "DME & Medical Equipment Logistics",
+      "headline": "Lost Equipment Orders Are Lost Revenue",
+      "subheadline": "Unified Vendor Revenue Command Infrastructure for DME Providers.",
+      "painPoint": "Fragmented vendor records, missing equipment orders, and disconnected logistics tracking are creating invisible revenue gaps across your operation — and no single system is catching them before billing closes.",
+      "solution": "We build a Unified Vendor Revenue Command Center: a structured, audit-ready data system that consolidates your equipment orders, delivery confirmations, and billing documentation into one defensible record.",
+      "ctaText": "Unify My Revenue Command",
+      "contactEmail": "dme@sindarity.com",
+      "metric": "Unified Vendor Revenue Command Center",
+      "badge": "HIPAA Compliant · BAA Available"
+    }
+  }
+}
